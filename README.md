@@ -26,7 +26,7 @@ PostgreSQL connection details:
    }
 
 
-1). Create Database Tables
+### Create Database Tables
 
 Before you can use the S3-Like Service, you need to create the necessary database tables. Use the following SQL queries to create the tables for user data, buckets, and files. Replace `your_username` and `your_database_name` with your actual PostgreSQL credentials as configured in the `config.json` file:
 
@@ -55,9 +55,9 @@ file_name varchar,
 type varchar,
    FOREIGN KEY (bucket_id) REFERENCES buckets(bucket_id)
 );
+```
 
-
-2). Endpoints and Usage
+## Endpoints and Usage
 
 ### Register a User
 
