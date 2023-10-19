@@ -42,7 +42,7 @@ const fieldValidationResponse = (res, errors) => {
             header: {
                 code: 601,
             },
-            body: { val: errorList }
+            body: { value: errorList }
         });
 };
 
