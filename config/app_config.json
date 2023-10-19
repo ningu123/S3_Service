@@ -1,0 +1,22 @@
+{
+    "db_postgres": {
+        "user": "postgres",
+        "port": 5432,
+        "host": "localhost",
+        "database": "postgres",
+        "password": "ningappa",
+        "connectionTimeoutMillis": 2000
+    },
+    "response_code": {
+        "success": 600,
+        "field_validation": 601,
+        "error_dbissue_serverissue": 602,
+        "not_found": 604,
+        "token_updated": 605,
+        "timeOut": 606,
+        "no_data_found": 607,
+        "unauthorize": 608,
+        "url_error": 609,
+        "duplication": 610
+    }
+}
