@@ -2,7 +2,7 @@ const { body } = require('express-validator');
 const { response_code } = require('../config/app_config.json');
 const userRepository = require('../repository/user_repository');
 const responseBody = require('../config/common_response');
-let name = /^[a-zA-Z ]{1,15}$/;
+let name = /^[a-zA-Z ]{1,25}$/;
 
 /**
  * Middleware to verify the user's access key.
