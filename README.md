@@ -72,7 +72,7 @@ Endpoint: `localhost:3000/register`
   - Send a POST request to `/register` with the following JSON data:
     ```json
     {
-      "userName": "your_username"
+      "userName": "username"
     }
     ```
   - After a successful registration, the response will include an access key, which you will need for other endpoints.
@@ -87,7 +87,7 @@ Endpoint: `localhost:3000/bucket/create`
   - Send a POST request to `/bucket/create` with the following JSON data:
     ```json
     {
-      "bucketName": "your_bucket_name"
+      "bucketName": "bucketname"
     }
     ```
   - Include the access key in the query parameter: `?accessKey=your_access_key`.
@@ -121,8 +121,8 @@ Endpoint: `localhost:3000/bucket/update`
   - Send a PUT request to `/bucket/update` with the following JSON data, specifying the old and new bucket names and including the access key in the query parameter:
     ```json
     {
-      "bucketName": "your_old_bucket_name",
-      "newBucketName": "your_new_bucket_name"
+      "bucketName": "oldbucketname",
+      "newBucketName": "newbucketname"
     }
     ```
   - Include the access key in the query parameter: `?accessKey=your_access_key`.
