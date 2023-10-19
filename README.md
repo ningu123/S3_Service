@@ -11,7 +11,7 @@ Before getting started, ensure you have the following prerequisites installed:
 
 2. **PostgreSQL (psql)**: Install PostgreSQL from the [official website](https://www.postgresql.org/download/).
 
-3. **Configuration File**: Update a `config.json` in config folder file in the project directory with your 
+3. **Configuration File**: Update a `config/app_config.json` in config folder file in the project directory with your 
 PostgreSQL connection details:
 
    ```json
@@ -61,7 +61,7 @@ type varchar,
 node app
 ```
 ## Endpoints and Usage
-
+use the postman or other tool for testing API
 ### Register a User
 
 Endpoint: `localhost:3000/register`
