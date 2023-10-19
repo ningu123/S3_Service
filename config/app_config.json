@@ -3,8 +3,8 @@
         "user": "postgres",
         "port": 5432,
         "host": "localhost",
-        "database": "postgres",
-        "password": "ningappa",
+        "database": "database",
+        "password": "password",
         "connectionTimeoutMillis": 2000
     },
     "response_code": {
