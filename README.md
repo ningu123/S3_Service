@@ -79,7 +79,7 @@ Endpoint: `localhost:3000/register`
 
 ### Create a Bucket
 
-Endpoint: `localhost:3000/bucket/create`
+Endpoint: `localhost:3000/bucket/create?accessKey=access_key`
 
 - **Description**: Create a new bucket.
 
@@ -94,7 +94,7 @@ Endpoint: `localhost:3000/bucket/create`
 
 ### List All Buckets
 
-Endpoint: `localhost:3000/bucket/get/all`
+Endpoint: `localhost:3000/bucket/get/all?accessKey=access_key`
 
 - **Description**: Retrieve a list of all buckets associated with your user.
 
@@ -103,7 +103,7 @@ Endpoint: `localhost:3000/bucket/get/all`
 
 ### Get Bucket by ID
 
-Endpoint: `localhost:3000/bucket/get`
+Endpoint: `localhost:3000/bucket/get?accessKey=access_key&bucketId=1`
 
 - **Description**: Retrieve a specific bucket by its ID.
 
@@ -113,7 +113,7 @@ Endpoint: `localhost:3000/bucket/get`
 
 ### Update a Bucket
 
-Endpoint: `localhost:3000/bucket/update`
+Endpoint: `localhost:3000/bucket/update?accessKey=access_key`
 
 - **Description**: Update the name of an existing bucket.
 
@@ -132,7 +132,7 @@ Endpoint: `localhost:3000/bucket/update`
 This endpoint allows users to change the name of an existing bucket. The `bucketName` field specifies the current name of the bucket, and the `newBucketName` field specifies the desired new name.
 ### Delete a Bucket
 
-Endpoint: `localhost:3000/bucket/delete`
+Endpoint: `localhost:3000/bucket/delete?accessKey=access_key`
 
 - **Description**: Delete a bucket by its ID.
 
@@ -142,7 +142,7 @@ Endpoint: `localhost:3000/bucket/delete`
 
 ### Upload Files
 
-Endpoint: `localhost:3000/files/upload`
+Endpoint: `localhost:3000/files/upload?accessKey=access_key&bucketName=folderName`
 
 - **Description**: Upload files to a specific bucket.
 
@@ -152,7 +152,7 @@ Endpoint: `localhost:3000/files/upload`
 
 ### List All Files in a Bucket
 
-Endpoint: `localhost:3000/files/get/all`
+Endpoint: `localhost:3000/files/get/all?accessKey=access_key&bucketName=folderName`
 
 - **Description**: Retrieve a list of all files in a specific bucket.
 
@@ -162,7 +162,7 @@ Endpoint: `localhost:3000/files/get/all`
 
 ### Delete a File
 
-Endpoint: `localhost:3000/files/delete`
+Endpoint: `localhost:3000/files/delete?accessKey=access_key&bucketName=folderName`
 
 - **Description**: Delete a file from a bucket.
 
@@ -172,7 +172,7 @@ Endpoint: `localhost:3000/files/delete`
 
 ### Download a File
 
-Endpoint: `localhost:3000/download/:fileName`
+Endpoint: `localhost:3000/download/:fileName?accessKey=access_key`
 
 - **Description**: Download a specific file.
 
