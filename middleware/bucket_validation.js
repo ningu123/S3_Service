@@ -1,5 +1,5 @@
 const { body } = require('express-validator');
-let name = /^[a-zA-Z0-9]{1,15}$/;
+let name = /^[a-zA-Z0-9]{1,25}$/;
 
 /**
  * Function to validate bucket credentials in a request body.
