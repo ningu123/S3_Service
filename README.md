@@ -56,7 +56,10 @@ type varchar,
    FOREIGN KEY (bucket_id) REFERENCES buckets(bucket_id)
 );
 ```
-
+4. **Start The Project** : To run the project, navigate to the "S3_Service" folder and enter the following command in your terminal
+```
+node app
+```
 ## Endpoints and Usage
 
 ### Register a User
