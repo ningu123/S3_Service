@@ -62,6 +62,18 @@ node app
 ```
 ## Endpoints and Usage
 use the postman or other tool for testing API
+## Response Codes
+
+- **Success**: 600
+- **Field Validation Error**: 601
+- **Database Issue/Server Issue Error**: 602
+- **Not Found**: 604
+- **Timeout Error**: 606
+- **No Data Found**: 607
+- **Unauthorized Access**: 608
+- **URL Error**: 609
+- **Duplication Error**: 610
+  
 ### Register a User
 
 Endpoint: `localhost:3000/register`
