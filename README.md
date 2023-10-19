@@ -16,7 +16,7 @@ PostgreSQL connection details:
 
    ```json
    {
-     "db": {
+     "db_postgres": {
        "user": "your_username",
        "host": "localhost",
        "database": "your_database_name",
